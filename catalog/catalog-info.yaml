@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ai-video-recognition
+  description: The AI Video Recognition Accelerator is an advanced application designed for real-time video analysis. Utilizing cutting-edge AI models, it identifies and classifies objects or events in video streams with remarkable accuracy and speed. This accelerator is ideal for a wide range of applications, from security and surveillance to customer behavior analysis and interactive media. It's a powerful tool for businesses and developers looking to integrate intelligent video analytics into their systems.
+  tags:
+  - node
+  - express
+  - web
+  - ai
+  - ai-video-recognition
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=ai-video-recognition
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
