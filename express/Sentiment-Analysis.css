@@ -1,0 +1,40 @@
+#text{
+   font-size:18px;
+
+}
+
+
+@media screen and (max-width:260mm){
+    #text{zoom:200%;border:2px solid royalblue}
+    #score{font-size: 68px !important}
+    #show{font-size: 100px !important}
+}
+
+.navbar-dark.bg-dark {
+    background-color: #0079bf; /* Couleur bleue spécifique de VMware */
+}
+
+.powered-by-container {
+    display: flex; /* Applique le flexbox */
+    align-items: center; /* Centre verticalement les éléments */
+    gap: 10px; /* Ajoute un espace entre le texte et l'image */
+}
+
+body {
+    text-align: center;
+}
+
+video {
+    width: 0px;
+    height: 0px;
+}
+
+table {
+    width: auto;
+    margin: auto;
+}
+
+tr, td {
+    border: 0px;
+    text-align: center; 
+}
