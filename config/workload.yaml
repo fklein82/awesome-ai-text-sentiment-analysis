@@ -1,0 +1,14 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: ai-text-sentiment-analysis
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: ai-text-sentiment-analysis
+    apps.tanzu.vmware.com/has-tests: "true"
+spec:
+  source:
+    git:
+      url: https://github.com/fklein82/awesome-ai-text-sentiment-analysis.git
+      ref:
+        branch: main
