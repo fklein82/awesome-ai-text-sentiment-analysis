@@ -27,7 +27,7 @@ The app will be accessible at http://localhost:80.
 Add the Accelerator on VMware Tanzu Application Platform
 
 ```bash
-tanzu acc create awesome-ai-text-analysis --git-repo https://github.com/[your-git-username]/awesome-ai-text-analysis --git-branch main --interval 5s
+tanzu acc create awesome-ai-text-analysis --git-repo https://github.com/fklein82/awesome-ai-text-sentiment-analysis --git-branch main --interval 5s
 ```
 
 ## Deploying on VMware Tanzu Application Platform
